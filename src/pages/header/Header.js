@@ -10,7 +10,7 @@ import {
 } from 'reactstrap';
 import { Link} from 'react-router-dom';
 
-import brand from '../../images/brand.png'
+import brand from '../../images/brandnew1.jpeg'
 
 const Header = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,7 +22,7 @@ const Header = (props) => {
       <Navbar color="dark" dark expand="md">
         <Container>
         <NavbarBrand>
-          <img src={brand} alt='coca-cola' style={{width: '100px', height: '50px'}}/>
+          <img src={brand} alt='coca-cola' style={{width: '200px', height: '100px'}}/>
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
