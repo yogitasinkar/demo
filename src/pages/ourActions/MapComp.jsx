@@ -8,6 +8,12 @@ import recycle from '../../images/recycle1.png'
 import DamModal from './DamModal';
 import FactoryModal from './FactoryModal';
 
+import 'mapbox-gl/dist/mapbox-gl.css';
+import mapboxgl from 'mapbox-gl';
+
+// eslint-disable-next-line import/no-webpack-loader-syntax
+mapboxgl.workerClass = require('worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker').default;
+
 
 function MapComp({recycleView}) {
 
