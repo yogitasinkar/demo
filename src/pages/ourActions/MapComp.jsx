@@ -8,6 +8,7 @@ import recycle from '../../images/recycle1.png'
 import DamModal from './DamModal';
 import FactoryModal from './FactoryModal';
 
+
 function MapComp({recycleView}) {
 
   const [selectedDam, setSelectedDam] = useState(null)
