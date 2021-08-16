@@ -14,9 +14,9 @@ const OurActions = () => {
     return (
         <Container className='my-5'>
             <div style={{display: 'flex', justifyContent:'center', marginBottom: '10px' }}>
-                <h3>OUR ACTIONS</h3>
+                <h3>FPO MAP</h3>
                 <ButtonGroup className='mx-3'>
-                    <Button size="sm" color={stateView ? 'muted' : 'primary'} onClick={() => setStateView(!stateView)}>Other View</Button>
+                    <Button size="sm" color={stateView ? 'muted' : 'primary'} onClick={() => setStateView(!stateView)}>FPO View</Button>
                     <Button size="sm" color={stateView ? 'primary' : 'muted'} onClick={() => setStateView(!stateView)}>State View</Button>
                 </ButtonGroup>  
             </div>
@@ -32,8 +32,8 @@ const OurActions = () => {
                                 <button className='btn btn-info m-2 reset-zoom' onClick={handleReset}>Reset Zoom</button>
                                 <br/>
                                 <ButtonGroup className='m-2'>
-                                    <Button color={recycleView ? 'muted' : 'primary'} onClick={() => setRecycleView(!recycleView)}  >Water</Button>
-                                    <Button color={recycleView ? 'primary' : 'muted'} onClick={() => setRecycleView(!recycleView)}  >Waste</Button>
+                                    <Button style={{width: '200px'}} color={recycleView ? 'muted' : 'primary'} onClick={() => setRecycleView(!recycleView)}  >Samunnati Supported</Button>
+                                    <Button style={{width: '100px'}}color={recycleView ? 'primary' : 'muted'} onClick={() => setRecycleView(!recycleView)}  >All</Button>
                                 </ButtonGroup>
                             </div>
                         </div>

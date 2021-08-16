@@ -13,8 +13,8 @@ const RenderBarChart = ({currentState}) => {
           <YAxis type="number"/>
           <Tooltip cursor={false}/>
           <Legend />
-          <Bar dataKey="used" stroke="#8884d8" fill="#8884d8" background={{ stroke: '#eee' }} isAnimationActive={true} barSize={40}/>
-          <Bar dataKey="replenished" stroke="#82ca9d" fill="#82ca9d" background={{ stroke: '#eee' }} isAnimationActive={false} barSize={40}/>
+          <Bar dataKey="Sumunnati_Supported" stroke="#8884d8" fill="#8884d8" background={{ stroke: '#eee' }} isAnimationActive={true} barSize={40}/>
+          <Bar dataKey="All_FPOs" stroke="#82ca9d" fill="#82ca9d" background={{ stroke: '#eee' }} isAnimationActive={false} barSize={40}/>
       </BarChart>
   )
 }

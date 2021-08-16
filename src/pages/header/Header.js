@@ -10,7 +10,7 @@ import {
 } from 'reactstrap';
 import { Link} from 'react-router-dom';
 
-import brand from '../../images/brandnew1.jpeg'
+import brand from '../../images/sam.png'
 
 const Header = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,15 +19,15 @@ const Header = (props) => {
 
   return (
     <div>
-      <Navbar color="dark" dark expand="md">
+      <Navbar color="white"  expand="md">
         <Container>
         <NavbarBrand>
-          <img src={brand} alt='coca-cola' style={{width: '200px', height: '100px'}}/>
+          <img src={brand} alt='coca-cola' style={{width: '300px', height: '100px'}}/>
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
-            <NavItem>
+            {/* <NavItem>
               <Link className='nav-link' to='/' >HOME </Link>
             </NavItem>
             <NavItem>
@@ -35,13 +35,13 @@ const Header = (props) => {
             </NavItem>
             <NavItem>
               <Link className='nav-link' to="/journey">JOURNEY </Link>
-            </NavItem>
+            </NavItem> */}
             <NavItem>
-              <Link className='nav-link' to="/our-actions">OUR ACTIONS</Link>
+              <Link className='nav-link' to="/our-actions">FPO MAPPING TOOL</Link>
             </NavItem>
-            <NavItem>
+            {/* <NavItem>
               <Link className='nav-link' to="/reports">REPORTS</Link>
-            </NavItem>
+            </NavItem> */}
           </Nav>
         </Collapse>
         </Container>

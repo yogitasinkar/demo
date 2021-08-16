@@ -54,6 +54,39 @@
             ],
             "city": "Jaipur",
             "state": "Rajasthan"
+        },
+        {
+            "ID": 8,
+            "type": "factory",
+            "NAME": "FACTORY 3",
+            "coordinates": [
+                33.2778,
+                75.3412
+            ],
+            "city": "Jaipur",
+            "state": "Rajasthan"
+        },
+        {
+            "ID": 9,
+            "type": "factory",
+            "NAME": "FACTORY 3",
+            "coordinates": [
+                19.7515,
+                75.7139
+            ],
+            "city": "Jaipur",
+            "state": "Rajasthan"
+        },
+        {
+            "ID": 10,
+            "type": "factory",
+            "NAME": "FACTORY 3",
+            "coordinates": [
+                22.9734,
+                78.6569
+            ],
+            "city": "Jaipur",
+            "state": "Rajasthan"
         }
     ]
 }

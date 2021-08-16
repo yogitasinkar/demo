@@ -3,6 +3,8 @@ import ReactMapGL, {Marker} from 'react-map-gl';
 import * as data from './data.json';
 import * as recycleData from './recycleData.json';
 import dam from '../../images/dam.svg'
+import farm from '../../images/farm.png'
+// import dam from '../../images/dam.svg'
 import factory from '../../images/factory.svg'
 import recycle from '../../images/recycle1.png'
 import DamModal from './DamModal';
@@ -49,8 +51,8 @@ function MapComp({recycleView}) {
             }}>
               {
                 item.type === "dam" ? 
-                  <img src={dam} alt='Dam' /> :
-                  <img src={factory} alt='Factory' />
+                  <img src={farm} alt='Dam' /> :
+                  null
               }
             </button>
           </Marker>
